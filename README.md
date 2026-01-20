@@ -2,12 +2,12 @@
 
 A full-stack e-commerce application featuring a React + Redux frontend and a Node.js/Express REST API backed by MongoDB (Mongoose).
 
-## Tech Stack
+## 🚀Tech Stack
 **Frontend:** React, Redux (store + slices), REST API client layer  
 **Backend:** Node.js, Express, MongoDB, Mongoose, CORS, Cookie-based auth middleware  
 **Database:** MongoDB
 
-## Key Features
+## ⚠️Key Features
 - Authentication & user flows (login/register)
 - Product catalog + product details
 - Cart management (add/remove/update quantities)
@@ -15,7 +15,7 @@ A full-stack e-commerce application featuring a React + Redux frontend and a Nod
 - Orders flow
 - Admin UI (manage products/users)
 
-## Architecture Overview
+## 🛠️## Architecture Overview
 Project Structure
 backend/
   routes/        # auth, users, products, carts, orders, favorites
@@ -27,7 +27,7 @@ frontend/
     redux/       # store, api clients, slices
     components/  # shared UI components
 
-### API Routes (high level)
+##### ✅ API Routes (high level)
 - `/api/auth`
 - `/api/users`
 - `/api/products`
@@ -45,13 +45,13 @@ frontend/
 git clone https://github.com/dorav32/ShopingWeb.git
 cd ShopingWeb
 
-### Backend:
+### 2) Backend <span style="color: 'white;">Important</span>
 cd backend
 cp .env.example .env
 npm install
 npm run start
 
-### Frontend:
+### 3)  Frontend <span style="color: 'white;">Important</span>
 cd ../frontend
 cp .env.example .env
 npm install
