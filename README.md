@@ -45,13 +45,13 @@ frontend/
 git clone https://github.com/dorav32/ShopingWeb.git
 cd ShopingWeb
 
-### 2) Backend <span style="color: 'white;">Important</span>
+### 2) Backend 
 cd backend
 cp .env.example .env
 npm install
 npm run start
 
-### 3)  Frontend <span style="color: 'white;">Important</span>
+### 3)  Frontend 
 cd ../frontend
 cp .env.example .env
 npm install
