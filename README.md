@@ -15,7 +15,7 @@ A full-stack e-commerce application featuring a React + Redux frontend and a Nod
 - Orders flow
 - Admin UI (manage products/users)
 
-## 🛠️## Architecture Overview
+## 🛠️ Architecture Overview
 Project Structure
 backend/
   routes/        # auth, users, products, carts, orders, favorites
